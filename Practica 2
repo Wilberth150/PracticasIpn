@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, operacion;
+
+    printf("Valor de x: ");
+    scanf("%lf", &x);
+
+    operacion = 3 * x + exp(x);
+
+    printf("f(x) = 3x + e^x for x = %.2lf is %.2lf\n", x, operacion);
+
+    return 0;
+}
