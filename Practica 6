@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <cmath>
+
+int main() {
+    double x;
+
+    printf("numero de x: ");
+    scanf("%lf", &x);
+
+    double resultado = 10 * x + 5 / pow(x, 2);
+
+    printf("El resultado es is: %.2f\n", resultado);
+
+    return 0;
+}
