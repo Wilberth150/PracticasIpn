@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <cmath> 
+
+int main() {
+    double x;
+
+    printf("numero de x: ");
+    scanf("%lf", &x);
+
+    double fx = sqrt(10 * x) - 5;
+
+    printf("f(%.2lf) = %.2lf\n", x, fx);
+
+    return 0;
+}
