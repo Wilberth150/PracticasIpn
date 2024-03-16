@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, arc;
+
+    printf("valor x: ");
+    scanf("%lf", &x);
+
+    arc = atan(x) - 2 * x + 1;
+
+    printf("f(x) = arctan(x) - 2x + 1 for x = %.2lf is %.2lf\n", x, arc);
+
+    return 0;
+}
