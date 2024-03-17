@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, fx;
+
+    printf("Enter a value for x: ");
+    scanf("%lf", &x);
+
+    fx = 4 * sin(x) * exp(-x) - 1;
+
+    printf("f(x) = %f\n", fx);
+
+    return 0;
+}
