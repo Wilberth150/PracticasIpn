@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <cmath>
+int main() {
+  double x;
+  printf("Da un valor de  x: ");
+  scanf("%lf", &x);
+
+  double fx = pow(x, 3) + 3 * pow(x, 2) - 4 * x - 10;
+
+  printf("f(%.2f) = %.4f\n", x, fx);
+
+  return 0;
+}
