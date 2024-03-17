@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, result;
+
+    printf("Enter a value for x: ");
+    scanf("%lf", &x);
+
+    result = pow(4, x) + 2;
+
+    printf("f(x) = 4^x + 2 = %.2lf\n", result);
+
+    return 0;
+}
