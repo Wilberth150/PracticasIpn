@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+#define PI 3.14159265358979323846
+
+int main() {
+  double x;
+  printf("cuanto vale x: ");
+  scanf("%lf", &x);
+
+  double fx = log(pow(x, 2) + 1) - exp(x / 2) * cos(PI * x);
+
+  printf("f(%.2f) = %.4f\n", x, fx);
+
+  return 0;
+}
