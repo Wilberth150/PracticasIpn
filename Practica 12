@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main() {
+    double x, fx;
+
+    printf("Enter a value for x: ");
+    scanf("%lf", &x);
+
+    fx = 1 - 2*x + 7*pow(x, 2) - 5*pow(x, 3);
+
+    printf("f(x) = %f\n", fx);
+
+    return 0;
+}
